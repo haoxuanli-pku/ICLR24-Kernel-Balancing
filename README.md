@@ -1,6 +1,6 @@
-## Debiased Collaborative Filtering with Kernel-based Causal Balancing
+## Debiased Collaborative Filtering with Kernel-Based Causal Balancing
 
-This is the official pytorch implementation of Debiased Collaborative Filtering with Kernel-based Causal Balancing.
+This is the official pytorch implementation of Debiased Collaborative Filtering with Kernel-Based Causal Balancing.
 
 
 ## Run the code
