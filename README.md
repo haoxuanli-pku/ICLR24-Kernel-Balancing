@@ -1,8 +1,6 @@
-## Debiased Collaborative Filtering with Kernel-Based Causal Balancing
+# This is the official pytorch implementation of our ICLR24 "Debiased Collaborative Filtering with Kernel-Based Causal Balancing" paper.
 
-This is the official pytorch implementation of Debiased Collaborative Filtering with Kernel-Based Causal Balancing.
-
-
+We use three public real-world datasets (Coat, Music and Product) for real-world experiments.
 ## Run the code
 
 - For Coat, please run the file:
@@ -36,11 +34,13 @@ The code runs well at python 3.8.18. The required packages are as follows:
 -   scikit-learn == 1.3.2
 
 
-## Acknowledgments
-We follow the previous study, which is shown below:  
-- Matrix factorization techniques for recommender systems.  
-- Recommendations as treatments: Debiasing learning and evaluation.  
-- Doubly robust estimator for ranking metrics with post-click conversions.  
-- Doubly robust joint learning for recommendation on data missing not at random. 
-- Information theoretic counterfactual learning from missing-not-at-random feedback. 
-- Propensity Matters: Measuring and Enhancing Balancing for Recommendation.
+## 
+If you find this code useful for your work, please consider to cite our work as
+```
+@inproceedings{li2024kernel,
+  title={Debiased Collaborative Filtering with Kernel-Based Causal Balancing},
+  author={Li, Haoxuan and Xiao, Yanghao and Zheng, Chunyuan and Wu, Peng and Chen, Xu and Geng, Zhi and Cui, Peng},
+  booktitle={The Thirteenth International Conference on Learning Representations},
+  year={2024}
+}
+```
